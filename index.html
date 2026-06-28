@@ -3,33 +3,39 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>我的第一个网页</title>
+    <title>光·遇攻略站</title>
     <style>
-        body {
-            font-family: sans-serif;
-            background-color: #f0f2f5;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
-            margin: 0;
-        }
-        .container {
-            background: white;
-            padding: 40px;
-            border-radius: 10px;
-            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
-            text-align: center;
-        }
-        h1 { color: #2c3e50; }
-        p { color: #666; }
+        body { font-family: sans-serif; background-color: #f0f2f5; color: #333; margin: 0; padding: 20px; }
+        .container { max-width: 800px; margin: 0 auto; background: white; padding: 20px; border-radius: 10px; box-shadow: 0 2px 10px rgba(0,0,0,0.1); }
+        h1 { text-align: center; color: #007bff; }
+        .card { border: 1px solid #ddd; padding: 15px; margin-bottom: 15px; border-radius: 8px; }
+        .card h2 { margin-top: 0; color: #ff9900; }
+        img { max-width: 100%; height: auto; border-radius: 5px; }
     </style>
 </head>
 <body>
     <div class="container">
-        <h1>🎉 恭喜！</h1>
-        <p>这是我的第一个 GitHub Pages 网站。</p>
-        <p>现在它终于显示正常了！</p>
+        <h1>☁️ 光·遇新手攻略大全</h1>
+        
+        <div class="card">
+            <h2>1. 晨岛 (Isle of Dawn)</h2>
+            <p>这里是旅程的开始。记得收集光之翼（小金人）来升级你的斗篷。</p>
+            <p><strong>任务：</strong> 找到先祖，点亮神庙。</p>
+        </div>
+
+        <div class="card">
+            <h2>2. 云野 (Daylight Prairie)</h2>
+            <p>风景优美，适合社交。这里有著名的“蝴蝶平原”和“八人门”。</p>
+            <p><strong>技巧：</strong> 练习飞翔技巧，注意躲避冥龙（如果有的话）。</p>
+        </div>
+
+        <div class="card">
+            <h2>3. 常用工具</h2>
+            <ul>
+                <li>光遇精灵：查询复刻先祖位置。</li>
+                <li>小程序：查看每日蜡烛图。</li>
+            </ul>
+        </div>
     </div>
 </body>
 </html>
